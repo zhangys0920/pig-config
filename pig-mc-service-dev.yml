@@ -1,0 +1,16 @@
+server:
+  port: 4050
+
+spring:
+  rabbitmq:
+    host: 192.169.0.111
+    port: 5672
+    username: pig
+    password: lengleng
+
+sms:
+  aliyun:
+    accessKey: accessKey
+    secretKey: secretKey
+    channels:
+      loginCodeChannel: SMS_34630023
