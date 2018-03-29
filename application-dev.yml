@@ -11,8 +11,8 @@ server:
 spring:
   redis:
     remote: true        #cachecloud 获取
-    host: 192.168.204.128
-    port: 6379
+    host: 47.98.104.86
+    port: 7000
     password:
   http:
     multipart:
