@@ -19,6 +19,7 @@ spring:
     sampler:
       percentage: 1.0
 
+
 # 分库分表支持
 sharding:
   jdbc:
