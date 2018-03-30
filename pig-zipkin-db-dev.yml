@@ -7,14 +7,14 @@ spring:
     driver-class-name: com.mysql.jdbc.Driver
     username: root
     password: ENC(gc16brBHPNq27HsjaULgKGq00Rz6ZUji)
-    url: jdbc:mysql://192.168.204.128:3306/pig?characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=false
+    url: jdbc:mysql://10.99.88.70:3306/pig?characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=false
     
 zipkin:
   collector:
     rabbitmq:
-      addresses: 192.168.204.128:5682
+      addresses: 47.98.104.86:5672
       password: root
-      username: root
+      username: 0814mq0920
       queue: zipkin
   storage:
     type: mysql

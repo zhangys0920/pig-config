@@ -6,8 +6,8 @@ spring:
     driver-class-name: com.mysql.jdbc.Driver
     username: root
     password: ENC(gc16brBHPNq27HsjaULgKGq00Rz6ZUji)
-    url: jdbc:mysql://106.14.69.75:3309/pig?characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=false
+    url: jdbc:mysql://10.99.88.70:3306/pig?characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=false
   elasticjob:
     zookeeper:
-      server-lists: 106.14.69.75:2181
+      server-lists: 47.98.104.86:2181
       namespace: pig-daemon

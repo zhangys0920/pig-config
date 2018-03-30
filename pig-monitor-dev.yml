@@ -3,8 +3,8 @@ server:
 
 spring:
   rabbitmq:
-    host: 106.14.69.75
-    port: 5682
+    host: 47.98.104.86
+    port: 5672
     username: pig
     password: ENC(gc16brBHPNq27HsjaULgKGq00Rz6ZUji)
   # zipkin:
