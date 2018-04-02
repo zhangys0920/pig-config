@@ -5,8 +5,8 @@ spring:
   rabbitmq:
     host: 47.98.104.86
     port: 5672
-    username: pig
-    password: ENC(gc16brBHPNq27HsjaULgKGq00Rz6ZUji)
+    username: root
+    password: 0814mq0920
   # zipkin:
   #     base-url: http://localhost:5002
   # sleuth:
